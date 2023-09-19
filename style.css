@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster+Two&family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primery-bgcolor: #2873f0;
+  --produt-fontsize: 16px bold;
+  --textprice-color: #388e3c;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: #cecfd0;
+  gap: 10px;
+}
+
+.columnbox:first-child {
+  background-color: var(--primery-bgcolor);
+  height: 115px;
+}
+
+.columnbox {
+  background-color: #ffffff;
+  width: 100%;
+  height: 366px;
+  display: flex;
+}
