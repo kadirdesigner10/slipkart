@@ -17,17 +17,51 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #cecfd0;
-  gap: 10px;
-}
-
-.columnbox:first-child {
-  background-color: var(--primery-bgcolor);
-  height: 115px;
+  column-gap: 10px;
 }
 
 .columnbox {
   background-color: #ffffff;
   width: 100%;
   height: 366px;
-  display: flex;
+  padding: 10px;
+  overflow: hidden;
 }
+.columnbox:first-child {
+  background-color: var(--primery-bgcolor);
+  width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: row;
+}
+.headers {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.headers img {
+  width: 150px;
+  display: block;
+}
+form {
+  height: 25px;
+  width: 400px;
+  display: flex;
+
+}
+form input {
+  height: 35px;
+  width: 370px;
+}
+form input:last-child {
+  height: 35px;
+  width: 30px;
+  }
+
+  .header-ul {
+    display: flex;
+  }
+  .header-ul li {
+    margin: 15px;
+    list-style: none;
+  }
