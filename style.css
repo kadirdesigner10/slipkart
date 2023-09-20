@@ -20,43 +20,43 @@ body {
   column-gap: 10px;
 }
 
-.columnbox {
-  background-color: #ffffff;
+header {
   width: 100%;
-  height: 366px;
-  padding: 10px;
-  overflow: hidden;
-}
-.columnbox:first-child {
+  height: 75px;
+  padding: 15px;
   background-color: var(--primery-bgcolor);
-  width: 100%;
-  height: 115px;
   display: flex;
   flex-direction: row;
-}
-.headers {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .headers img {
-  width: 150px;
+  width: 120px;
   display: block;
 }
 form {
-  height: 25px;
-  width: 400px;
+  height: 35px;
+  width: 500px;
   display: flex;
+  background-color: #fff;
+  margin: 0 50px;
 
 }
 form input {
   height: 35px;
-  width: 370px;
+  width: 470px;
+  outline: none;
+  border: none;
+
 }
-form input:last-child {
+.searchicon {
   height: 35px;
-  width: 30px;
-  }
+  width: 35px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 35px;
+
+}
 
   .header-ul {
     display: flex;
@@ -64,4 +64,31 @@ form input:last-child {
   .header-ul li {
     margin: 15px;
     list-style: none;
+    color: white;
+  }
+  .store {
+    height: 25px;
+    margin-top: 10px;
+  }
+  i {
+    margin: 0 15px;
+  }
+
+  i ~ .play {
+    rotate: 90deg;
+  }
+  .signin_ul {
+    background-color:var(--primery-bgcolor);
+    width: 300px;
+    padding: 10px;
+    color: white;
+}
+  .signin_ul ul li {
+    padding: 5px;
+    font-weight: 200;
+    font-size: 15px;
+  }
+  .signin_ul ul li:first-child {
+    border-bottom: white;
+    bor
   }
