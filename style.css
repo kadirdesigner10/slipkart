@@ -79,9 +79,11 @@ form input {
   }
   .signin_ul {
     background-color:var(--primery-bgcolor);
-    width: 300px;
-    padding: 10px;
+    width: 340px;
+    padding: 5px;
     color: white;
+    position: absolute;
+    display: none;
 }
   .signin_ul ul li {
     padding: 5px;
@@ -90,4 +92,35 @@ form input {
   }
   .signin_ul ul li:first-child {
     border-bottom: white;
+  }
+  .signin {
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: #fff;
+    color: var(--primery-bgcolor);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+  .signup-menu:hover .signin_ul {
+    display: block;
+  }
+  .header-ul li:last-child {
+    cursor: pointer;
+  }
+  .ul-dots {
+    font-size: 13PX;
+    text-align: left;
+    background-color:var(--primery-bgcolor);
+    right: 0px;
+    width: 240px;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    display: none;
+}
+
+.dots:hover .ul-dots {
+    display: block;
   }
