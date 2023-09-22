@@ -40,14 +40,12 @@ form {
   display: flex;
   background-color: #fff;
   margin: 0 50px;
-
 }
 form input {
   height: 35px;
   width: 470px;
   outline: none;
   border: none;
-
 }
 .searchicon {
   height: 35px;
@@ -55,72 +53,117 @@ form input {
   background-color: #fff;
   text-align: center;
   line-height: 35px;
-
 }
 
-  .header-ul {
-    display: flex;
-  }
-  .header-ul li {
-    margin: 15px;
-    list-style: none;
-    color: white;
-  }
-  .store {
-    height: 25px;
-    margin-top: 10px;
-  }
-  i {
-    margin: 0 15px;
-  }
-
-  i ~ .play {
-    rotate: 90deg;
-  }
-  .signin_ul {
-    background-color:var(--primery-bgcolor);
-    width: 340px;
-    padding: 5px;
-    color: white;
-    position: absolute;
-    display: none;
+.header-ul {
+  display: flex;
 }
-  .signin_ul ul li {
-    padding: 5px;
-    font-weight: 200;
-    font-size: 15px;
-  }
-  .signin_ul ul li:first-child {
-    border-bottom: white;
-  }
-  .signin {
-    margin-left: 50px;
-    font-size: 20px;
-    background-color: #fff;
-    color: var(--primery-bgcolor);
-    padding: 10px 10px;
-    border-radius: 5px;
-    font-weight: 600;
-  }
+.header-ul li {
+  margin: 15px;
+  list-style: none;
+  color: white;
+  cursor: pointer;
+}
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 
-  .signup-menu:hover .signin_ul {
-    display: block;
-  }
-  .header-ul li:last-child {
-    cursor: pointer;
-  }
-  .ul-dots {
-    font-size: 13PX;
-    text-align: left;
-    background-color:var(--primery-bgcolor);
-    right: 0px;
-    width: 240px;
-    padding: 5px;
-    color: white;
-    position: absolute;
-    display: none;
+.store {
+  height: 25px;
+  margin-top: 10px;
+}
+i {
+  margin: 0 15px;
+}
+
+i ~ .play {
+  rotate: 90deg;
+}
+.signin_ul {
+  background-color: var(--primery-bgcolor);
+  width: 340px;
+  padding: 5px;
+  color: white;
+  position: absolute;
+  display: none;
+}
+.signin_ul ul li {
+  padding: 5px;
+  font-weight: 200;
+  font-size: 15px;
+}
+.signin_ul ul li:first-child {
+  border-bottom: white;
+}
+.signin {
+  margin-left: 50px;
+  font-size: 20px;
+  background-color: #fff;
+  color: var(--primery-bgcolor);
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.signup-menu:hover .signin_ul {
+  display: block;
+}
+.header-ul li:last-child {
+  cursor: pointer;
+}
+.ul-dots {
+  font-size: 13px;
+  text-align: left;
+  background-color: var(--primery-bgcolor);
+  right: 0px;
+  width: 240px;
+  padding: 5px;
+  color: white;
+  position: absolute;
+  display: none;
 }
 
 .dots:hover .ul-dots {
-    display: block;
-  }
+  display: block;
+}
+
+.header-nav {
+  width: 100%;
+  min-height: 125px;
+  padding: 10px 40px;
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+}
+.navitem {
+  /* background-color: #2873f0; */
+  height: 50px;
+  width: 130px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.navitem img {
+  width: 80px;
+  align-items: center;
+}
+.navitem p {
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: extra-condensed;
+}
+.arrow1 {
+  border: solid #323232;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-left: 4px;
+}
